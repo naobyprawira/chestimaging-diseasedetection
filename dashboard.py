@@ -5,7 +5,7 @@ from predict import import_and_predict  # Import the prediction function
 
 # Set page configuration
 st.set_page_config(
-    page_title="Pneumonia and COVID Classification",
+    page_title="Medical Imaging Disease Classification",
     page_icon=":mask:",
     initial_sidebar_state='auto'
 )
@@ -23,8 +23,8 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Main Page
 st.write("""
-# Pneumonia and COVID Classification
-Upload a chest X-ray image to determine if the subject has Pneumonia, COVID-19, or is Healthy.
+# Medical Imaging Disease Classification
+Upload a chest X-ray image to determine if the subject has TB, COVID-19, or is Healthy.
 """)
 
 # File uploader
