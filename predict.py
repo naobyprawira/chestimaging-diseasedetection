@@ -85,7 +85,7 @@ model= load_model('trained_model/GoogleNet.h5')
 
 def import_and_predict(image_data):
     """Preprocess and predict the class of the input image."""
-    size = (224, 224)
+    size = (256, 256)
     image = ImageOps.fit(image_data, size, Image.Resampling.LANCZOS)
     image = image.convert("RGB")
     img_array = np.asarray(image) / 255.0
