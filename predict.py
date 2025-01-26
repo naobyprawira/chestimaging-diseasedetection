@@ -8,7 +8,7 @@ from tensorflow.keras.layers import (
     Conv2D, MaxPooling2D, Flatten, Dense, Activation, Dropout, 
     BatchNormalization, MaxPool2D, GlobalAveragePooling2D, 
     Input, Concatenate
-)= 
+)
 
 # # Define the class names
 CLASS_NAMES = ['Non-TB','Healthy', 'Tuberculosis']
