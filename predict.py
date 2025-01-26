@@ -81,7 +81,7 @@ model.load_weights('trained_model/GoogleNet.h5')
 #     return model
 
 # model = load_DenseNet169()
-model.load_weights('trained_model/GoogleNet.h5')
+# model.load_weights('trained_model/GoogleNet.h5')
 
 def import_and_predict(image_data):
     """Preprocess and predict the class of the input image."""
