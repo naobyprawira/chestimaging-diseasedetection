@@ -3,12 +3,13 @@ import numpy as np
 from PIL import Image, ImageOps
 import streamlit as st
 from tensorflow.keras.layers import Input, Dropout, Dense
-from tensorflow.keras.models import Model, load_model, DenseNet121
+from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.layers import (
     Conv2D, MaxPooling2D, Flatten, Dense, Activation, Dropout, 
     BatchNormalization, MaxPool2D, GlobalAveragePooling2D, 
     Input, Concatenate
 )
+from tensorflow.keras.applications import DenseNet121
 
 # # Define the class names
 CLASS_NAMES = ['Non-TB','Healthy', 'Tuberculosis']
