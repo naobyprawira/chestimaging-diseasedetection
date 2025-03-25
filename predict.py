@@ -32,7 +32,7 @@ def load_DenseNet121():
     return model
 
 model= load_DenseNet121()
-model.load_weights('trained_model/DenseNet121.h5')
+model.load_weights('trained_model/DenseNet121.weights.h5')
 
 def import_and_predict(image_data):
     """Preprocess and predict the class of the input image."""
